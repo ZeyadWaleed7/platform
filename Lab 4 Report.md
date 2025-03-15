@@ -4,20 +4,20 @@
 
 ### Core Components
 
-1. **Circuit Breaker Core** (`internal/circuitbreaker/circuit_breaker.go`)
+1. **Circuit Breaker Core** 
 
    - State management
    - Failure tracking
    - Retry logic
    - Thread safety
 
-2. **HTTP Middleware** (`internal/middleware/circuit_breaker.go`)
+2. **HTTP Middleware** 
 
    - Request interception
    - Response handling
    - Per-endpoint circuit breaker management
 
-3. **Server Integration** (`internal/server/server.go`)
+3. **Server Integration** 
    - API gateway setup
    - Route configuration
    - Circuit breaker initialization
