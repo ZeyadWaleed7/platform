@@ -64,9 +64,9 @@ cbConfig := circuitbreaker.Config{
     BackoffMultiplier: 2.0,
 }
 
-cbMiddleware := middleware.NewCircuitBreakerMiddleware(cbConfig)
+cbMiddleware := middleware.NewCircuitBreakerMiddleware
 
-router.Handle("/api/service", cbMiddleware.Middleware(yourHandler))
+router.Handle("/api/service", cbMiddleware.Middleware)
 ```
 
 ### States and Behavior
