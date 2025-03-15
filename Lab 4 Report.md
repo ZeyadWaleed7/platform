@@ -1,4 +1,4 @@
-# API Gateway Circuit Breaker Implementation
+# Circuit Breaker
 
 ## Architecture
 
